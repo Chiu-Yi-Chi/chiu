@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MultiplicationTable(modifier: Modifier = Modifier) {
-    // 使用 LazyColumn 顯示 99 乘法表
+    // 使用 LazyColumn 顯示 99 乘法
     LazyColumn(modifier = modifier.padding(16.dp)) {
         items(9) { i -> // 1 到 9
             Row(modifier = Modifier.fillMaxWidth()) {
